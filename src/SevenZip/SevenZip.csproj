@@ -41,6 +41,8 @@
     <Compile Include="Common\CRC.cs" />
     <Compile Include="Common\InBuffer.cs" />
     <Compile Include="Common\OutBuffer.cs" />
+    <Compile Include="Compress\LzmaAlone\LzmaAlone.cs" />
+    <Compile Include="Compress\LzmaAlone\LzmaBench.cs" />
     <Compile Include="Compress\LZMA\LzmaBase.cs" />
     <Compile Include="Compress\LZMA\LzmaDecoder.cs" />
     <Compile Include="Compress\LZMA\LzmaEncoder.cs" />
@@ -54,7 +56,6 @@
     <Compile Include="ICoder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
