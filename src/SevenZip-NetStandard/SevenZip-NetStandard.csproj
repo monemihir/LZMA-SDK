@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>SevenZip</AssemblyName>
+    <RootNamespace>SevenZip</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>bin</OutputPath>
+    <DocumentationFile>bin\netstandard2.0\SevenZip.xml</DocumentationFile>
+    <NoWarn>1701;1702;1705;1591</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>bin</OutputPath>
+    <DocumentationFile>bin\netstandard2.0\SevenZip.xml</DocumentationFile>
+    <NoWarn>1701;1702;1705;1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\SevenZip\Common\CommandLineParser.cs" Link="Common\CommandLineParser.cs" />
+    <Compile Include="..\SevenZip\Common\CRC.cs" Link="Common\CRC.cs" />
+    <Compile Include="..\SevenZip\Common\InBuffer.cs" Link="Common\InBuffer.cs" />
+    <Compile Include="..\SevenZip\Common\OutBuffer.cs" Link="Common\OutBuffer.cs" />
+    <Compile Include="..\SevenZip\Compress\LzmaAlone\LzmaAlone.cs" Link="Compress\LzmaAlone\LzmaAlone.cs" />
+    <Compile Include="..\SevenZip\Compress\LzmaAlone\LzmaBench.cs" Link="Compress\LzmaAlone\LzmaBench.cs" />
+    <Compile Include="..\SevenZip\Compress\LZMA\LzmaBase.cs" Link="Compress\LZMA\LzmaBase.cs" />
+    <Compile Include="..\SevenZip\Compress\LZMA\LzmaDecoder.cs" Link="Compress\LZMA\LzmaDecoder.cs" />
+    <Compile Include="..\SevenZip\Compress\LZMA\LzmaEncoder.cs" Link="Compress\LZMA\LzmaEncoder.cs" />
+    <Compile Include="..\SevenZip\Compress\LZ\IMatchFinder.cs" Link="Compress\LZ\IMatchFinder.cs" />
+    <Compile Include="..\SevenZip\Compress\LZ\LzBinTree.cs" Link="Compress\LZ\LzBinTree.cs" />
+    <Compile Include="..\SevenZip\Compress\LZ\LzInWindow.cs" Link="Compress\LZ\LzInWindow.cs" />
+    <Compile Include="..\SevenZip\Compress\LZ\LzOutWindow.cs" Link="Compress\LZ\LzOutWindow.cs" />
+    <Compile Include="..\SevenZip\Compress\RangeCoder\RangeCoder.cs" Link="Compress\RangeCoder\RangeCoder.cs" />
+    <Compile Include="..\SevenZip\Compress\RangeCoder\RangeCoderBit.cs" Link="Compress\RangeCoder\RangeCoderBit.cs" />
+    <Compile Include="..\SevenZip\Compress\RangeCoder\RangeCoderBitTree.cs" Link="Compress\RangeCoder\RangeCoderBitTree.cs" />
+    <Compile Include="..\SevenZip\ICoder.cs" Link="ICoder.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Common\" />
+    <Folder Include="Compress\LZ\" />
+    <Folder Include="Compress\LZMA\" />
+    <Folder Include="Compress\LzmaAlone\" />
+    <Folder Include="Compress\RangeCoder\" />
+  </ItemGroup>
+
+</Project>

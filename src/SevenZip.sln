@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SevenZip", "SevenZip\SevenZip.csproj", "{136E38B8-E968-4693-8FC1-659DD95E8025}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SevenZip-NetStandard", "SevenZip-NetStandard\SevenZip-NetStandard.csproj", "{D20C9679-B641-4340-8E90-B86C7E672BF7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{136E38B8-E968-4693-8FC1-659DD95E8025}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{136E38B8-E968-4693-8FC1-659DD95E8025}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{136E38B8-E968-4693-8FC1-659DD95E8025}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D20C9679-B641-4340-8E90-B86C7E672BF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D20C9679-B641-4340-8E90-B86C7E672BF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D20C9679-B641-4340-8E90-B86C7E672BF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D20C9679-B641-4340-8E90-B86C7E672BF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8D26C42-ED9E-4C23-BDA6-7DF7FED42ECD}
 	EndGlobalSection
 EndGlobal
