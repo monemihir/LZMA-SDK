@@ -97,22 +97,22 @@ namespace SevenZip
 		/// Specifies Block Size.
 		/// </summary>
 		BlockSize,
-		/// <summary>
-		/// Specifies number of postion state bits for LZMA (0 &lt;= x &lt;= 4).
-		/// </summary>
-		PosStateBits,
-		/// <summary>
-		/// Specifies number of literal context bits for LZMA (0 &lt;= x &lt;= 8).
-		/// </summary>
-		LitContextBits,
-		/// <summary>
-		/// Specifies number of literal position bits for LZMA (0 &lt;= x &lt;= 4).
-		/// </summary>
-		LitPosBits,
-		/// <summary>
-		/// Specifies number of fast bytes for LZ*.
-		/// </summary>
-		NumFastBytes,
+    /// <summary>
+    /// Specifies number of postion state bits for LZMA (0 &lt;= x &lt;= 4).
+    /// </summary>
+    PosStateBits,
+    /// <summary>
+    /// Specifies number of literal context bits for LZMA (0 &lt;= x &lt;= 8).
+    /// </summary>
+    LitContextBits,
+    /// <summary>
+    /// Specifies number of literal position bits for LZMA (0 &lt;= x &lt;= 4).
+    /// </summary>
+    LitPosBits,
+    /// <summary>
+    /// Specifies number of fast bytes for LZ*.
+    /// </summary>
+    NumFastBytes,
 		/// <summary>
 		/// Specifies match finder. LZMA: "BT2", "BT4" or "BT4B".
 		/// </summary>

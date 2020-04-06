@@ -4,22 +4,21 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>SevenZip</AssemblyName>
     <RootNamespace>SevenZip</RootNamespace>
-    <AssemblyVersion>18.1.0.0</AssemblyVersion>
-    <FileVersion>18.1.0.0</FileVersion>
-    <Version>18.1.0</Version>
+    <AssemblyVersion>19.0.0.0</AssemblyVersion>
+    <FileVersion>19.0.0.0</FileVersion>
+    <Version>19.0.0</Version>
     <PackageId>LZMA-SDK</PackageId>
     <Authors>Mihir Mone</Authors>
     <Company />
     <Product>LZMA SDK</Product>
     <Description>LZMA SDK provided by the 7zip library</Description>
-    <Copyright>2018</Copyright>
-    <PackageLicenseUrl>https://www.gnu.org/licenses/lgpl-3.0.txt</PackageLicenseUrl>
+    <Copyright>2020</Copyright>
+    <PackageLicenseUrl>https://github.com/monemihir/LZMA-SDK/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/monemihir/LZMA-SDK</PackageProjectUrl>
     <PackageIconUrl>http://www.7-zip.org/7ziplogo.png</PackageIconUrl>
     <RepositoryUrl>https://github.com/monemihir/LZMA-SDK</RepositoryUrl>
     <PackageTags>7zip 7z sevenzip lzma sdk</PackageTags>
-    <PackageReleaseNotes>Some changes in LZMA2/xz multithreading code for compressing. 
-Some bugs were fixed.</PackageReleaseNotes>
+    <PackageReleaseNotes>Encryption strength for 7z archives was increased.</PackageReleaseNotes>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
