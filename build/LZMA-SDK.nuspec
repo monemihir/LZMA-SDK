@@ -2,21 +2,20 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>LZMA-SDK</id>
-    <version>18.1.0</version>
+    <version>19.0.0</version>
     <title>LZMA SDK</title>
     <authors>Mihir Mone</authors>
     <owners>Mihir Mone</owners>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <licenseUrl>https://www.gnu.org/licenses/lgpl-3.0.txt</licenseUrl>
+    <licenseUrl>https://github.com/monemihir/LZMA-SDK/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/monemihir/LZMA-SDK</projectUrl>
     <iconUrl>http://www.7-zip.org/7ziplogo.png</iconUrl>
     <description>This SDK is packaged as is from www.7-zip.org.
 
 All source code is copyright of Igor Pavlov.</description>
     <summary>LZMA SDK provided by the 7zip library</summary>
-    <releaseNotes>Some changes in LZMA2/xz multithreading code for compressing. 
-Some bugs were fixed.</releaseNotes>
-    <copyright>(c) 2018 Mihir Mone</copyright>
+    <releaseNotes>Encryption strength for 7z archives was increased.</releaseNotes>
+    <copyright>(c) 2020 Mihir Mone</copyright>
     <language>en-AU</language>
     <tags>7zip 7z sevenzip lzma sdk</tags>
   </metadata>
