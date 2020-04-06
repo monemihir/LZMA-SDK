@@ -7,9 +7,9 @@
     <authors>Mihir Mone</authors>
     <owners>Mihir Mone</owners>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <licenseUrl>https://github.com/monemihir/LZMA-SDK/blob/master/LICENSE</licenseUrl>
+    <license type="expression">MIT</license>
     <projectUrl>https://github.com/monemihir/LZMA-SDK</projectUrl>
-    <iconUrl>http://www.7-zip.org/7ziplogo.png</iconUrl>
+    <icon>7z_rm01.jpg</icon>
     <description>This SDK is packaged as is from www.7-zip.org.
 
 All source code is copyright of Igor Pavlov.</description>
@@ -20,6 +20,7 @@ All source code is copyright of Igor Pavlov.</description>
     <tags>7zip 7z sevenzip lzma sdk</tags>
   </metadata>
   <files>
+    <file src="..\src\SevenZip\7z_rm01.jpg" target="" />
     <file src="..\src\SevenZip\bin\SevenZip.dll" target="lib\net20\SevenZip.dll" />
     <file src="..\src\SevenZip\bin\SevenZip.xml" target="lib\net20\SevenZip.xml" />
     <file src="..\src\SevenZip-NetStandard\bin\netstandard2.0\SevenZip.deps.json" target="lib\netstandard2.0\SevenZip.deps.json" />
