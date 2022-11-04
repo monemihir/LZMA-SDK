@@ -1,30 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>LZMA-SDK</id>
-    <version>19.0.0</version>
+    <version>22.1.0</version>
     <title>LZMA SDK</title>
     <authors>Mihir Mone</authors>
     <owners>Mihir Mone</owners>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <license type="expression">MIT</license>
-    <projectUrl>https://github.com/monemihir/LZMA-SDK</projectUrl>
     <icon>7z_rm01.jpg</icon>
+    <projectUrl>https://github.com/monemihir/LZMA-SDK</projectUrl>
     <description>This SDK is packaged as is from www.7-zip.org.
 
 All source code is copyright of Igor Pavlov.</description>
     <summary>LZMA SDK provided by the 7zip library</summary>
-    <releaseNotes>Encryption strength for 7z archives was increased.</releaseNotes>
-    <copyright>(c) 2020 Mihir Mone</copyright>
+    <releaseNotes>macOS and Linux Support. 
+LZMA dictionary size increased to 4GB.</releaseNotes>
+    <copyright>(c) 2022 Mihir Mone</copyright>
     <language>en-AU</language>
     <tags>7zip 7z sevenzip lzma sdk</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework2.0" />
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
   </metadata>
   <files>
-    <file src="..\src\SevenZip\7z_rm01.jpg" target="" />
     <file src="..\src\SevenZip\bin\SevenZip.dll" target="lib\net20\SevenZip.dll" />
     <file src="..\src\SevenZip\bin\SevenZip.xml" target="lib\net20\SevenZip.xml" />
     <file src="..\src\SevenZip-NetStandard\bin\netstandard2.0\SevenZip.deps.json" target="lib\netstandard2.0\SevenZip.deps.json" />
     <file src="..\src\SevenZip-NetStandard\bin\netstandard2.0\SevenZip.dll" target="lib\netstandard2.0\SevenZip.dll" />
     <file src="..\src\SevenZip-NetStandard\bin\netstandard2.0\SevenZip.xml" target="lib\netstandard2.0\SevenZip.xml" />
+    <file src="..\src\SevenZip\7z_rm01.jpg" target="7z_rm01.jpg" />
   </files>
 </package>
