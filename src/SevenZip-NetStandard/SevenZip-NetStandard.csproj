@@ -4,15 +4,15 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>SevenZip</AssemblyName>
     <RootNamespace>SevenZip</RootNamespace>
-    <AssemblyVersion>19.0.0.0</AssemblyVersion>
-    <FileVersion>19.0.0.0</FileVersion>
-    <Version>19.0.0</Version>
+    <AssemblyVersion>22.1.1.0</AssemblyVersion>
+    <FileVersion>22.1.1.0</FileVersion>
+    <Version>22.1.1</Version>
     <PackageId>LZMA-SDK</PackageId>
     <Authors>Mihir Mone</Authors>
     <Company />
     <Product>LZMA SDK</Product>
     <Description>LZMA SDK provided by the 7zip library</Description>
-    <Copyright>2020</Copyright>
+    <Copyright>2023</Copyright>
     <PackageLicenseUrl>https://github.com/monemihir/LZMA-SDK/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/monemihir/LZMA-SDK</PackageProjectUrl>
     <PackageIconUrl>http://www.7-zip.org/7ziplogo.png</PackageIconUrl>
