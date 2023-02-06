@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>LZMA-SDK</id>
-    <version>22.1.0</version>
+    <version>22.1.1</version>
     <title>LZMA SDK</title>
     <authors>Mihir Mone</authors>
     <owners>Mihir Mone</owners>
@@ -14,9 +14,8 @@
 
 All source code is copyright of Igor Pavlov.</description>
     <summary>LZMA SDK provided by the 7zip library</summary>
-    <releaseNotes>macOS and Linux Support. 
-LZMA dictionary size increased to 4GB.</releaseNotes>
-    <copyright>(c) 2022 Mihir Mone</copyright>
+    <releaseNotes>Strong naming the assemblies</releaseNotes>
+    <copyright>(c) 2023 Mihir Mone</copyright>
     <language>en-AU</language>
     <tags>7zip 7z sevenzip lzma sdk</tags>
     <dependencies>
