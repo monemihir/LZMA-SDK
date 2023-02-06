@@ -19,6 +19,8 @@
     <RepositoryUrl>https://github.com/monemihir/LZMA-SDK</RepositoryUrl>
     <PackageTags>7zip 7z sevenzip lzma sdk</PackageTags>
     <PackageReleaseNotes>Encryption strength for 7z archives was increased.</PackageReleaseNotes>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\..\lzmasdk.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
